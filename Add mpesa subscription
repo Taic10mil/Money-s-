@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Subscribe with M-Pesa</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 400px;
+      margin: 50px auto;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    label {
+      display: block;
+      margin-top: 10px;
+      color: #555;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+    button {
+      margin-top: 20px;
+      width: 100%;
+      padding: 12px;
+      background-color: #28a745;
+      border: none;
+      color: #fff;
+      font-weight: bold;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .mpesa-info {
+      margin-top: 20px;
+      font-weight: bold;
+      color: #444;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Subscribe via M-Pesa</h2>
+    <p class="mpesa-info">Pay to M-Pesa Number: <br><strong>0701288367</strong></p>
+    <form>
+      <label>Your Name</label>
+      <input type="text" placeholder="Enter your name" required />
+
+      <label>Phone Number</label>
+      <input type="tel" placeholder="07XXXXXXXX" required />
+
+      <label>Amount Paid (KES)</label>
+      <input type="number" placeholder="Enter amount" required />
+
+      <label>M-Pesa Transaction ID</label>
+      <input type="text" placeholder="e.g. QWR1XXXXXXXX" required />
+
+      <button type="submit">Submit Confirmation</button>
+    </form>
+  </div>
+</body>
+</html>
